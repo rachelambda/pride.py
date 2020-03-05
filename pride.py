@@ -126,6 +126,6 @@ elif sel == "pan":
         if (float(y) / float(h - 1)) <= 1.0/3.0:
             cprint(bright_magenta, "█" * w)
         elif (float(y) / float(h - 1)) <= 2.0/3.0:
-            cprint(yellow, "█" * w)
+            cprint(bright_yellow, "█" * w)
         else: 
             cprint(bright_cyan, "█" * w)
